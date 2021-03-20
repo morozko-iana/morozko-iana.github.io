@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: RobotoR;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+
+html, body, main{
+	height: 100%;
+	font-family: 'Cormorant Unicase', serif;
+}
+
+.first{
+	height: 100%;
+	background-image: url(../img/img2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.first p{
+	color:white;
+}
+.tourism{
+	text-align:center;
+	font-size:20px;
+	padding-top: 80px;
+	width: 100%;
+}
+.text-container{
+	width: 50%;
+	margin-left: 15%;
+	margin-top:15%;
+}
+.first-line{
+	font-size: 26px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 1;
+	opacity: 0.5;
+}
+.second-line{
+	text-transform: uppercase;
+	font-size: 64px;
+	line-height: 1;
+	font-weight:bold;
+	letter-spacing: 5px;
+}
+.thrid-line{
+	font-size: 20px;
+}
+.second{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 300px;
+}
+.gallery-container{
+	width: 60%;
+	max-width: 1000px;
+}
+.img-container{
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+}
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.3);
+}
+.img1{
+	width:55%;
+}
+.wrapper{
+	margin-left: 20px;
+}
+.img2{
+	margin-bottom: 20px;
+}
+.img3 {
+	width: auto;
+}
+.gallery-text{
+   /*display: flex;
+   justify-content: space-between;*/
+   align-items: center;
+   margin-bottom: 20px;
+}
+.gallery-header{
+	font-size: 48px;
+	letter-spacing: 2px;
+	font-weight: lighter;
+	line-height: 1;
+	font-family: Roboto;
+	padding: 30px;
+	margin-top: 50px;
+}
+.gallery-p{
+	font-size: 16px;
+	width: 70%;
+}
+.last-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+	flex-direction: column;
+	padding: 0 25%;
+	background-image: url(../img/img12.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: Roboto;
+}
+.last-text{
+	color:white ;
+	font-size: 16px;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 1px;
+}
+.last-header{
+	font-size: 20px;
+	color: white;
+	padding: 10px 20px;
+	margin-bottom: 40px;
+	border:1px solid white;
+}
+button{
+	background-color: red;
+}
+.thrid {
+	margin-top: 400px;
+}
+
+
